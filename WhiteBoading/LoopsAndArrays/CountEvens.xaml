@@ -1,0 +1,16 @@
+﻿<Window x:Name="CountEvensWindow" x:Class="WhiteBoading.LoopsAndArrays.CountEvens"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WhiteBoading.LoopsAndArrays"
+        mc:Ignorable="d"
+        Title="CountEvens" Height="281" Width="389" ResizeMode="NoResize">
+    <Grid Background="Gray">
+        <TextBlock x:Name="Text" HorizontalAlignment="Left" Margin="83,58,0,0" TextWrapping="Wrap" Text="Write a method that takes in an array of integers, and counts the total number of even integers in the array." VerticalAlignment="Top" Height="126" Width="224"/>
+        <Button x:Name="ShowAnswerButton" Content="Show Answer" HorizontalAlignment="Left" Margin="40,184,0,0" VerticalAlignment="Top" Width="97" Click="ShowAnswerButton_Click"/>
+        <Button x:Name="NextProblemButton" Content="Next Problem" HorizontalAlignment="Left" Margin="142,184,0,0" VerticalAlignment="Top" Width="97"/>
+        <Button x:Name="CloseButton" Content="Close" HorizontalAlignment="Left" Margin="244,184,0,0" VerticalAlignment="Top" Width="97"/>
+
+    </Grid>
+</Window>

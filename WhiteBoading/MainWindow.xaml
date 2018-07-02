@@ -1,0 +1,15 @@
+﻿<Window x:Class="WhiteBoading.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WhiteBoading"
+        mc:Ignorable="d"
+        Title="C# Whiteboarding Practice App" Height="350" Width="600">
+    <Grid Background="#FFA0A0A0">
+        <Grid HorizontalAlignment="Left" Height="148" Margin="10,10,0,0" VerticalAlignment="Top" Width="572">
+            <Label x:Name="TitleLabel" Content="Choose a topic to practice:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="252"/>
+            <Button x:Name="LoopsAndArraysButton" Content="Loops and Arrays" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top" Width="125" Click="LoopsAndArraysButton_Click"/>
+        </Grid>
+    </Grid>
+</Window>
