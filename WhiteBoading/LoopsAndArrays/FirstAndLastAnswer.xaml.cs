@@ -15,11 +15,11 @@ using System.Windows.Shapes;
 namespace WhiteBoading.LoopsAndArrays
 {
     /// <summary>
-    /// Interaction logic for CountEvensAnswer.xaml
+    /// Interaction logic for FirstAndLastAnswer.xaml
     /// </summary>
-    public partial class CountEvensAnswer : Window
+    public partial class FirstAndLastAnswer : Window
     {
-        public CountEvensAnswer()
+        public FirstAndLastAnswer()
         {
             InitializeComponent();
             WindowPositioner.CenterWindowOnScreen(this);

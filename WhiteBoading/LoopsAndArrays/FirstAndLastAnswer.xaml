@@ -1,0 +1,15 @@
+﻿<Window x:Class="WhiteBoading.LoopsAndArrays.FirstAndLastAnswer"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WhiteBoading.LoopsAndArrays"
+        mc:Ignorable="d"
+        Title="FirstAndLastAnswer" Height="408.404" Width="467.983">
+    <Grid Background="Gray">
+        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center" Margin="107,24,65,119" Height="234" Width="288"><Span Foreground="Black"><Run Text="        "/></Span><Span Foreground="Blue"><Run/></Span><LineBreak/><Run Foreground="Blue" Text="     public"/><Span Foreground="Black"><Run Text=" "/></Span><Span Foreground="Blue"><Run Text="bool"/></Span><Span Foreground="Black"><Run Text=" FirstAndLast("/></Span><Span Foreground="Blue"><Run Text="int"/></Span><Span Foreground="Black"><Run Text="[] nums)"/></Span><LineBreak/><Span Foreground="Black"><Run Text="        {"/></Span><LineBreak/><Span Foreground="Black"><Run Text="            "/></Span><Span Foreground="Blue"><Run Text="if"/></Span><Span Foreground="Black"><Run Text=" (nums[0] == nums[nums.Length - 1])"/></Span><LineBreak/><Span Foreground="Black"><Run Text="            {"/></Span><LineBreak/><Span Foreground="Black"><Run Text="                "/></Span><Span Foreground="Blue"><Run Text="return"/></Span><Span Foreground="Black"><Run Text=" "/></Span><Span Foreground="Blue"><Run Text="true"/></Span><Span Foreground="Black"><Run Text=";"/></Span><LineBreak/><Span Foreground="Black"><Run Text="            }"/></Span><LineBreak/><LineBreak/><Span Foreground="Black"><Run Text="            "/></Span><Span Foreground="Blue"><Run Text="else"/></Span><LineBreak/><Span Foreground="Black"><Run Text="            {"/></Span><LineBreak/><Span Foreground="Black"><Run Text="                "/></Span><Span Foreground="Blue"><Run Text="return"/></Span><Span Foreground="Black"><Run Text=" "/></Span><Span Foreground="Blue"><Run Text="false"/></Span><Span Foreground="Black"><Run Text=";"/></Span><LineBreak/><Span Foreground="Black"><Run Text="            }"/></Span><LineBreak/><Span Foreground="Black"><Run Text="        }"/></Span></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="30,272,0,0" TextWrapping="Wrap" Text="Rather than having two return statements, you could also declare a boolean before the if statement, set its value from within the if statement, and then return the boolean." VerticalAlignment="Top" Height="72" Width="268"/>
+        <Button Content="Close" HorizontalAlignment="Left" Margin="320,324,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.083,-0.044" Click="Button_Click"/>
+
+    </Grid>
+</Window>

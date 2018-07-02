@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:WhiteBoading"
         mc:Ignorable="d"
         Title="C# Whiteboarding Practice App" Height="350" Width="600">
-    <Grid Background="#FFA0A0A0">
+    <Grid Background="Gray">
         <Grid HorizontalAlignment="Left" Height="148" Margin="10,10,0,0" VerticalAlignment="Top" Width="572">
             <Label x:Name="TitleLabel" Content="Choose a topic to practice:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="252"/>
             <Button x:Name="LoopsAndArraysButton" Content="Loops and Arrays" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top" Width="125" Click="LoopsAndArraysButton_Click"/>

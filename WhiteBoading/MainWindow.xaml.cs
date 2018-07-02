@@ -24,6 +24,7 @@ namespace WhiteBoading
         public MainWindow()
         {
             InitializeComponent();
+            WindowPositioner.CenterWindowOnScreen(this);
         }
 
         private void LoopsAndArraysButton_Click(object sender, RoutedEventArgs e)

@@ -15,11 +15,11 @@ using System.Windows.Shapes;
 namespace WhiteBoading.LoopsAndArrays
 {
     /// <summary>
-    /// Interaction logic for CountEvens.xaml
+    /// Interaction logic for FirstAndLast.xaml
     /// </summary>
-    public partial class CountEvens : Window
+    public partial class FirstAndLast : Window
     {
-        public CountEvens()
+        public FirstAndLast()
         {
             InitializeComponent();
             WindowPositioner.CenterWindowOnScreen(this);
@@ -27,15 +27,12 @@ namespace WhiteBoading.LoopsAndArrays
 
         private void ShowAnswerButton_Click(object sender, RoutedEventArgs e)
         {
-            CountEvensAnswer answer = new CountEvensAnswer();
+            FirstAndLastAnswer answer = new FirstAndLastAnswer();
             answer.ShowDialog();
         }
 
         private void NextProblemButton_Click(object sender, RoutedEventArgs e)
         {
-            FirstAndLast firstAndLast = new FirstAndLast();
-            Close();
-            firstAndLast.ShowDialog();
 
         }
 

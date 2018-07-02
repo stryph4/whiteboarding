@@ -54,11 +54,23 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="LoopsAndArrays\FirstAndLastAnswer.xaml.cs">
+      <DependentUpon>FirstAndLastAnswer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WindowPositioner.cs" />
     <Page Include="LoopsAndArrays\CountEvens.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="LoopsAndArrays\CountEvensAnswer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="LoopsAndArrays\FirstAndLast.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="LoopsAndArrays\FirstAndLastAnswer.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -75,6 +87,9 @@
     </Compile>
     <Compile Include="LoopsAndArrays\CountEvensAnswer.xaml.cs">
       <DependentUpon>CountEvensAnswer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LoopsAndArrays\FirstAndLast.xaml.cs">
+      <DependentUpon>FirstAndLast.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>

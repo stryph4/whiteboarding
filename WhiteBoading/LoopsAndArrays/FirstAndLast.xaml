@@ -1,13 +1,13 @@
-﻿<Window x:Name="CountEvensWindow" x:Class="WhiteBoading.LoopsAndArrays.CountEvens"
+﻿<Window x:Class="WhiteBoading.LoopsAndArrays.FirstAndLast"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WhiteBoading.LoopsAndArrays"
         mc:Ignorable="d"
-        Title="CountEvens" Height="275" Width="375" ResizeMode="NoResize">
-    <Grid Background="Gray">
-        <TextBlock x:Name="Text" HorizontalAlignment="Center" Margin="34,38,34,10" TextWrapping="Wrap" Text="Write a method that takes in an array of integers, and counts the total number of even integers in the array." VerticalAlignment="Center" Height="198" Width="301" TextAlignment="Center"/>
+        Title="FirstAndLast" Height="275" Width="375">
+    <Grid Background="Gray" Margin="0,0,-2,-2">
+        <TextBlock x:Name="Text" HorizontalAlignment="Left" Margin="34,38,34,10" TextWrapping="Wrap" VerticalAlignment="Top" Height="198" Width="301" TextAlignment="Center"><Run Text="Write a method that takes in an array of integers and returns true if the first and last values in the array are the same, otherwise return false. Assume that the array will"/><LineBreak/><Run Text="always have a length of more than 1."/></TextBlock>
         <Button x:Name="ShowAnswerButton" Content="Show Answer" HorizontalAlignment="Center" Margin="119,146,119,73" VerticalAlignment="Center" Width="131" Click="ShowAnswerButton_Click" Height="27"/>
         <Button x:Name="NextProblemButton" Content="Next Problem" HorizontalAlignment="Center" Margin="119,178,119,42" VerticalAlignment="Center" Width="131" Click="NextProblemButton_Click" Height="26"/>
         <Button x:Name="CloseButton" Content="Close" HorizontalAlignment="Center" Margin="119,209,119,10" VerticalAlignment="Center" Width="131" Click="CloseButton_Click" Height="27"/>
