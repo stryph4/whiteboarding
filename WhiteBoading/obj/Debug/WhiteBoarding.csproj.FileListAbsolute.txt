@@ -21,3 +21,7 @@ C:\Users\stryp\Desktop\repo\WhiteBoading\WhiteBoading\obj\Debug\WhiteBoading.exe
 C:\Users\stryp\Desktop\repo\WhiteBoading\WhiteBoading\obj\Debug\WhiteBoading.pdb
 C:\Users\stryp\Desktop\repo\WhiteBoading\WhiteBoading\obj\Debug\LoopsAndArrays\FirstAndLastAnswer.g.cs
 C:\Users\stryp\Desktop\repo\WhiteBoading\WhiteBoading\obj\Debug\LoopsAndArrays\FirstAndLastAnswer.baml
+C:\Users\stryp\Desktop\repo\WhiteBoading\WhiteBoading\obj\Debug\LoopsAndArrays\ReverseArray.g.cs
+C:\Users\stryp\Desktop\repo\WhiteBoading\WhiteBoading\obj\Debug\LoopsAndArrays\ReverseArrayAnswer.g.cs
+C:\Users\stryp\Desktop\repo\WhiteBoading\WhiteBoading\obj\Debug\LoopsAndArrays\ReverseArray.baml
+C:\Users\stryp\Desktop\repo\WhiteBoading\WhiteBoading\obj\Debug\LoopsAndArrays\ReverseArrayAnswer.baml

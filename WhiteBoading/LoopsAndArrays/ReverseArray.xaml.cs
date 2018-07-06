@@ -15,11 +15,11 @@ using System.Windows.Shapes;
 namespace WhiteBoading.LoopsAndArrays
 {
     /// <summary>
-    /// Interaction logic for FirstAndLast.xaml
+    /// Interaction logic for ReverseArray.xaml
     /// </summary>
-    public partial class FirstAndLast : Window
+    public partial class ReverseArray : Window
     {
-        public FirstAndLast()
+        public ReverseArray()
         {
             InitializeComponent();
             WindowPositioner.CenterWindowOnScreen(this);
@@ -27,15 +27,8 @@ namespace WhiteBoading.LoopsAndArrays
 
         private void ShowAnswerButton_Click(object sender, RoutedEventArgs e)
         {
-            FirstAndLastAnswer answer = new FirstAndLastAnswer();
+            ReverseArrayAnswer answer = new ReverseArrayAnswer();
             answer.ShowDialog();
-        }
-
-        private void NextProblemButton_Click(object sender, RoutedEventArgs e)
-        {
-            ReverseArray reverseArray = new ReverseArray();
-            Close();
-            reverseArray.ShowDialog();
         }
 
         private void CloseButton_Click(object sender, RoutedEventArgs e)

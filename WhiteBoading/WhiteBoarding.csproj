@@ -57,6 +57,12 @@
     <Compile Include="LoopsAndArrays\FirstAndLastAnswer.xaml.cs">
       <DependentUpon>FirstAndLastAnswer.xaml</DependentUpon>
     </Compile>
+    <Compile Include="LoopsAndArrays\ReverseArray.xaml.cs">
+      <DependentUpon>ReverseArray.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LoopsAndArrays\ReverseArrayAnswer.xaml.cs">
+      <DependentUpon>ReverseArrayAnswer.xaml</DependentUpon>
+    </Compile>
     <Compile Include="WindowPositioner.cs" />
     <Page Include="LoopsAndArrays\CountEvens.xaml">
       <SubType>Designer</SubType>
@@ -71,6 +77,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="LoopsAndArrays\FirstAndLastAnswer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="LoopsAndArrays\ReverseArray.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="LoopsAndArrays\ReverseArrayAnswer.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -121,6 +135,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Strings\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
