@@ -21,3 +21,26 @@ C:\Users\stryp\Desktop\repo\WhiteBoading\WhiteBoading\obj\Debug\WhiteBoading.exe
 C:\Users\stryp\Desktop\repo\WhiteBoading\WhiteBoading\obj\Debug\WhiteBoading.pdb
 C:\Users\stryp\Desktop\repo\WhiteBoading\WhiteBoading\obj\Debug\LoopsAndArrays\FirstAndLastAnswer.g.cs
 C:\Users\stryp\Desktop\repo\WhiteBoading\WhiteBoading\obj\Debug\LoopsAndArrays\FirstAndLastAnswer.baml
+C:\Users\Nabiel El-Gendy\source\repos\whiteboarding\WhiteBoading\bin\Debug\WhiteBoading.exe.config
+C:\Users\Nabiel El-Gendy\source\repos\whiteboarding\WhiteBoading\bin\Debug\WhiteBoading.exe
+C:\Users\Nabiel El-Gendy\source\repos\whiteboarding\WhiteBoading\bin\Debug\WhiteBoading.pdb
+C:\Users\Nabiel El-Gendy\source\repos\whiteboarding\WhiteBoading\obj\Debug\WhiteBoarding.csprojAssemblyReference.cache
+C:\Users\Nabiel El-Gendy\source\repos\whiteboarding\WhiteBoading\obj\Debug\LoopsAndArrays\CountEvens.g.cs
+C:\Users\Nabiel El-Gendy\source\repos\whiteboarding\WhiteBoading\obj\Debug\LoopsAndArrays\CountEvensAnswer.g.cs
+C:\Users\Nabiel El-Gendy\source\repos\whiteboarding\WhiteBoading\obj\Debug\LoopsAndArrays\FirstAndLast.g.cs
+C:\Users\Nabiel El-Gendy\source\repos\whiteboarding\WhiteBoading\obj\Debug\LoopsAndArrays\FirstAndLastAnswer.g.cs
+C:\Users\Nabiel El-Gendy\source\repos\whiteboarding\WhiteBoading\obj\Debug\MainWindow.g.cs
+C:\Users\Nabiel El-Gendy\source\repos\whiteboarding\WhiteBoading\obj\Debug\App.g.cs
+C:\Users\Nabiel El-Gendy\source\repos\whiteboarding\WhiteBoading\obj\Debug\WhiteBoading_MarkupCompile.cache
+C:\Users\Nabiel El-Gendy\source\repos\whiteboarding\WhiteBoading\obj\Debug\WhiteBoading_MarkupCompile.lref
+C:\Users\Nabiel El-Gendy\source\repos\whiteboarding\WhiteBoading\obj\Debug\LoopsAndArrays\CountEvens.baml
+C:\Users\Nabiel El-Gendy\source\repos\whiteboarding\WhiteBoading\obj\Debug\LoopsAndArrays\CountEvensAnswer.baml
+C:\Users\Nabiel El-Gendy\source\repos\whiteboarding\WhiteBoading\obj\Debug\LoopsAndArrays\FirstAndLast.baml
+C:\Users\Nabiel El-Gendy\source\repos\whiteboarding\WhiteBoading\obj\Debug\LoopsAndArrays\FirstAndLastAnswer.baml
+C:\Users\Nabiel El-Gendy\source\repos\whiteboarding\WhiteBoading\obj\Debug\MainWindow.baml
+C:\Users\Nabiel El-Gendy\source\repos\whiteboarding\WhiteBoading\obj\Debug\WhiteBoading.g.resources
+C:\Users\Nabiel El-Gendy\source\repos\whiteboarding\WhiteBoading\obj\Debug\WhiteBoading.Properties.Resources.resources
+C:\Users\Nabiel El-Gendy\source\repos\whiteboarding\WhiteBoading\obj\Debug\WhiteBoarding.csproj.GenerateResource.cache
+C:\Users\Nabiel El-Gendy\source\repos\whiteboarding\WhiteBoading\obj\Debug\WhiteBoarding.csproj.CoreCompileInputs.cache
+C:\Users\Nabiel El-Gendy\source\repos\whiteboarding\WhiteBoading\obj\Debug\WhiteBoading.exe
+C:\Users\Nabiel El-Gendy\source\repos\whiteboarding\WhiteBoading\obj\Debug\WhiteBoading.pdb
