@@ -54,6 +54,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="LoopsAndArrays\Fibonacci.xaml.cs">
+      <DependentUpon>Fibonacci.xaml</DependentUpon>
+    </Compile>
     <Compile Include="LoopsAndArrays\FirstAndLastAnswer.xaml.cs">
       <DependentUpon>FirstAndLastAnswer.xaml</DependentUpon>
     </Compile>
@@ -63,12 +66,25 @@
     <Compile Include="LoopsAndArrays\ReverseArrayAnswer.xaml.cs">
       <DependentUpon>ReverseArrayAnswer.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Strings\LongestWord.xaml.cs">
+      <DependentUpon>LongestWord.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Strings\Substring.xaml.cs">
+      <DependentUpon>Substring.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Strings\SubstringAnswer.xaml.cs">
+      <DependentUpon>SubstringAnswer.xaml</DependentUpon>
+    </Compile>
     <Compile Include="WindowPositioner.cs" />
     <Page Include="LoopsAndArrays\CountEvens.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="LoopsAndArrays\CountEvensAnswer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="LoopsAndArrays\Fibonacci.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -109,6 +125,18 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Strings\LongestWord.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Strings\Substring.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Strings\SubstringAnswer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -136,8 +164,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Strings\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

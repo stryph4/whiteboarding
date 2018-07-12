@@ -14,7 +14,7 @@
             </Grid.ColumnDefinitions>
             <Label x:Name="TitleLabel" Content="Choose a topic to practice:" HorizontalAlignment="Left" Margin="0,10,-97,0" VerticalAlignment="Top" Width="252" Grid.ColumnSpan="2"/>
             <Button x:Name="LoopsAndArraysButton" Content="Loops and Arrays" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top" Width="125" Click="LoopsAndArraysButton_Click" Grid.ColumnSpan="2"/>
-            <Button x:Name="Strings" Content="Strings" HorizontalAlignment="Left" Margin="10,66,0,0" VerticalAlignment="Top" Width="125" Click="LoopsAndArraysButton_Click" Grid.ColumnSpan="2"/>
+            <Button x:Name="Strings" Content="Strings" HorizontalAlignment="Left" Margin="10,66,0,0" VerticalAlignment="Top" Width="125" Grid.ColumnSpan="2" Click="Strings_Click"/>
         </Grid>
     </Grid>
 </Window>

@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using WhiteBoading.LoopsAndArrays;
+using WhiteBoading.Strings;
 
 namespace WhiteBoading
 {
@@ -31,6 +32,12 @@ namespace WhiteBoading
         {
             CountEvens countEvens = new CountEvens();
             countEvens.ShowDialog();
+        }
+
+        private void Strings_Click(object sender, RoutedEventArgs e)
+        {
+            Substring substring = new Substring();
+            substring.ShowDialog();
         }
     }
 }

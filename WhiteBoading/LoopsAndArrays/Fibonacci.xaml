@@ -1,0 +1,12 @@
+﻿<Window x:Class="WhiteBoading.LoopsAndArrays.Fibonacci"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WhiteBoading.LoopsAndArrays"
+        mc:Ignorable="d"
+        Title="Fibonacci" Height="275" Width="375">
+    <Grid Background="Gray">
+        
+    </Grid>
+</Window>
