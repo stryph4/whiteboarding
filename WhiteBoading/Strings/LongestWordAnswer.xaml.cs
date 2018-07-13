@@ -12,16 +12,21 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace WhiteBoading.LoopsAndArrays
+namespace WhiteBoading.Strings
 {
     /// <summary>
-    /// Interaction logic for Fibonacci.xaml
+    /// Interaction logic for LongestWordAnswer.xaml
     /// </summary>
-    public partial class Fibonacci : Window
+    public partial class LongestWordAnswer : Window
     {
-        public Fibonacci()
+        public LongestWordAnswer()
         {
             InitializeComponent();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Close();
         }
     }
 }

@@ -34,7 +34,9 @@ namespace WhiteBoading.Strings
 
         private void NextProblemButton_Click(object sender, RoutedEventArgs e)
         {
-
+            LongestWord longestWord = new LongestWord();
+            Close();
+            longestWord.ShowDialog();
         }
 
         private void CloseButton_Click(object sender, RoutedEventArgs e)

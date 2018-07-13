@@ -5,9 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WhiteBoading.LoopsAndArrays"
         mc:Ignorable="d"
-        Title="ReverseArray" Height="275" Width="375" ResizeMode="NoResize">
+        Title="ReverseArray" Height="375" Width="500" ResizeMode="NoResize">
     <Grid Background="Gray" Margin="0,0,-2,-2">
-        <TextBlock x:Name="Text" HorizontalAlignment="Left" Margin="34,38,34,10" TextWrapping="Wrap" VerticalAlignment="Top" Height="198" Width="301" TextAlignment="Center" Text="DIFFICULT: Write a method that takes in an array of integers, and returns a new array of integers in reverse order."/>
+        <TextBlock x:Name="Text" HorizontalAlignment="Center" Margin="34,38,34,10" TextWrapping="Wrap" VerticalAlignment="Center" Height="198" Width="301" TextAlignment="Center" Text="Write a method that takes in an array of integers, and returns a new array of integers in reverse order."/>
         <Button x:Name="ShowAnswerButton" Content="Show Answer" HorizontalAlignment="Center" Margin="120,178,120,43" VerticalAlignment="Center" Width="131" Click="ShowAnswerButton_Click" Height="27"/>
         <Button x:Name="CloseButton" Content="Close" HorizontalAlignment="Center" Margin="119,209,119,10" VerticalAlignment="Center" Width="131" Click="CloseButton_Click" Height="27"/>
 

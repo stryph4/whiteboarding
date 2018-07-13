@@ -5,14 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WhiteBoading.Strings"
         mc:Ignorable="d"
-        Title="SubstringAnswer" Height="275" Width="375">
+        Title="SubstringAnswer" Height="375" Width="500" ResizeMode="NoResize">
     <Grid Background="Gray">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="163*"/>
             <ColumnDefinition Width="131*"/>
         </Grid.ColumnDefinitions>
-        <TextBlock x:Name="Answer" HorizontalAlignment="Left" Margin="27,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Background="Gray" Grid.ColumnSpan="2"><Span Foreground="Black"><Run Text="        "/></Span><Span Foreground="Blue"><Run Text="public"/></Span><Span Foreground="Black"><Run Text=" "/></Span><Span Foreground="Blue"><Run Text="string"/></Span><Span Foreground="Black"><Run Text=" Word("/></Span><Span Foreground="Blue"><Run Text="string"/></Span><Span Foreground="Black"><Run Text=" sentence)"/></Span><LineBreak/><Span Foreground="Black"><Run Text="        {"/></Span><LineBreak/><Span Foreground="Black"><Run Text="            sentence = sentence.Substring(0, 6);"/></Span><LineBreak/><Span Foreground="Black"><Run Text="            "/></Span><Span Foreground="Blue"><Run Text="return"/></Span><Span Foreground="Black"><Run Text=" sentence;"/></Span><LineBreak/><Span Foreground="Black"><Run Text="        }"/></Span></TextBlock>
-        <Button x:Name="Close_Button" Content="Close" HorizontalAlignment="Center" Margin="0,200,0,0" VerticalAlignment="Top" Width="75" Grid.ColumnSpan="2" Click="Close_Button_Click"/>
+        <TextBlock x:Name="Answer" HorizontalAlignment="Left" Margin="132,67,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Background="Gray" Grid.ColumnSpan="2"><Span Foreground="Black"><Run Text="        "/></Span><Span Foreground="Blue"><Run Text="public"/></Span><Span Foreground="Black"><Run Text=" "/></Span><Span Foreground="Blue"><Run Text="string"/></Span><Span Foreground="Black"><Run Text=" Word("/></Span><Span Foreground="Blue"><Run Text="string"/></Span><Span Foreground="Black"><Run Text=" sentence)"/></Span><LineBreak/><Span Foreground="Black"><Run Text="        {"/></Span><LineBreak/><Span Foreground="Black"><Run Text="            sentence = sentence.Substring(0, 6);"/></Span><LineBreak/><Span Foreground="Black"><Run Text="            "/></Span><Span Foreground="Blue"><Run Text="return"/></Span><Span Foreground="Black"><Run Text=" sentence;"/></Span><LineBreak/><Span Foreground="Black"><Run Text="        }"/></Span></TextBlock>
+        <Button x:Name="Close_Button" Content="Close" HorizontalAlignment="Center" Margin="0,0,0,25" VerticalAlignment="Bottom" Width="75" Grid.ColumnSpan="2" Click="Close_Button_Click"/>
 
     </Grid>
 </Window>

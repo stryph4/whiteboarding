@@ -1,7 +1,6 @@
 C:\Users\stryp\Desktop\repo\WhiteBoading\WhiteBoading\bin\Debug\WhiteBoading.exe.config
 C:\Users\stryp\Desktop\repo\WhiteBoading\WhiteBoading\bin\Debug\WhiteBoading.exe
 C:\Users\stryp\Desktop\repo\WhiteBoading\WhiteBoading\bin\Debug\WhiteBoading.pdb
-C:\Users\stryp\Desktop\repo\WhiteBoading\WhiteBoading\obj\Debug\WhiteBoarding.csprojAssemblyReference.cache
 C:\Users\stryp\Desktop\repo\WhiteBoading\WhiteBoading\obj\Debug\LoopsAndArrays\CountEvens.g.cs
 C:\Users\stryp\Desktop\repo\WhiteBoading\WhiteBoading\obj\Debug\LoopsAndArrays\CountEvensAnswer.g.cs
 C:\Users\stryp\Desktop\repo\WhiteBoading\WhiteBoading\obj\Debug\LoopsAndArrays\FirstAndLast.g.cs
@@ -56,3 +55,24 @@ C:\Users\Nabiel El-Gendy\source\repos\whiteboarding\WhiteBoading\obj\Debug\Strin
 C:\Users\Nabiel El-Gendy\source\repos\whiteboarding\WhiteBoading\obj\Debug\Strings\SubstringAnswer.g.cs
 C:\Users\Nabiel El-Gendy\source\repos\whiteboarding\WhiteBoading\obj\Debug\Strings\Substring.baml
 C:\Users\Nabiel El-Gendy\source\repos\whiteboarding\WhiteBoading\obj\Debug\Strings\SubstringAnswer.baml
+C:\Users\stryp\Desktop\repo\WhiteBoading\WhiteBoading\obj\Debug\Collections\Fibonacci.g.cs
+C:\Users\stryp\Desktop\repo\WhiteBoading\WhiteBoading\obj\Debug\Collections\FibonacciAnswer.g.cs
+C:\Users\stryp\Desktop\repo\WhiteBoading\WhiteBoading\obj\Debug\Strings\LongestWord.g.cs
+C:\Users\stryp\Desktop\repo\WhiteBoading\WhiteBoading\obj\Debug\Strings\LongestWordAnswer.g.cs
+C:\Users\stryp\Desktop\repo\WhiteBoading\WhiteBoading\obj\Debug\Strings\Substring.g.cs
+C:\Users\stryp\Desktop\repo\WhiteBoading\WhiteBoading\obj\Debug\Strings\SubstringAnswer.g.cs
+C:\Users\stryp\Desktop\repo\WhiteBoading\WhiteBoading\obj\Debug\Collections\Fibonacci.baml
+C:\Users\stryp\Desktop\repo\WhiteBoading\WhiteBoading\obj\Debug\Collections\FibonacciAnswer.baml
+C:\Users\stryp\Desktop\repo\WhiteBoading\WhiteBoading\obj\Debug\Strings\LongestWord.baml
+C:\Users\stryp\Desktop\repo\WhiteBoading\WhiteBoading\obj\Debug\Strings\LongestWordAnswer.baml
+C:\Users\stryp\Desktop\repo\WhiteBoading\WhiteBoading\obj\Debug\Strings\Substring.baml
+C:\Users\stryp\Desktop\repo\WhiteBoading\WhiteBoading\obj\Debug\Strings\SubstringAnswer.baml
+C:\Users\stryp\Desktop\repo\WhiteBoading\WhiteBoading\obj\Debug\WhiteBoarding.csprojAssemblyReference.cache
+C:\Users\stryp\Desktop\repo\WhiteBoading\WhiteBoading\obj\Debug\Collections\Absolutes.g.cs
+C:\Users\stryp\Desktop\repo\WhiteBoading\WhiteBoading\obj\Debug\Collections\AbsolutesAnswer.g.cs
+C:\Users\stryp\Desktop\repo\WhiteBoading\WhiteBoading\obj\Debug\Collections\FizzBuzz.g.cs
+C:\Users\stryp\Desktop\repo\WhiteBoading\WhiteBoading\obj\Debug\Collections\FizzBuzzAnswer.g.cs
+C:\Users\stryp\Desktop\repo\WhiteBoading\WhiteBoading\obj\Debug\Collections\Absolutes.baml
+C:\Users\stryp\Desktop\repo\WhiteBoading\WhiteBoading\obj\Debug\Collections\AbsolutesAnswer.baml
+C:\Users\stryp\Desktop\repo\WhiteBoading\WhiteBoading\obj\Debug\Collections\FizzBuzz.baml
+C:\Users\stryp\Desktop\repo\WhiteBoading\WhiteBoading\obj\Debug\Collections\FizzBuzzAnswer.baml

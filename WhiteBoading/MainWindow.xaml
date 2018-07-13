@@ -5,16 +5,22 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WhiteBoading"
         mc:Ignorable="d"
-        Title="C# Whiteboarding Practice App" Height="276.471" Width="268.235">
+        Title="C# Whiteboarding Practice App" Height="400" Width="350" ResizeMode="NoResize">
     <Grid Background="Gray">
-        <Grid HorizontalAlignment="Center" Height="179" Margin="52,17,52,49" VerticalAlignment="Center" Width="156">
+        <Grid HorizontalAlignment="Center" Height="347" Margin="94,14,94,10" VerticalAlignment="Center" Width="156">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="75*"/>
+                <RowDefinition Height="104*"/>
+            </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="76*"/>
                 <ColumnDefinition Width="79*"/>
             </Grid.ColumnDefinitions>
-            <Label x:Name="TitleLabel" Content="Choose a topic to practice:" HorizontalAlignment="Left" Margin="0,10,-97,0" VerticalAlignment="Top" Width="252" Grid.ColumnSpan="2"/>
-            <Button x:Name="LoopsAndArraysButton" Content="Loops and Arrays" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top" Width="125" Click="LoopsAndArraysButton_Click" Grid.ColumnSpan="2"/>
-            <Button x:Name="Strings" Content="Strings" HorizontalAlignment="Left" Margin="10,66,0,0" VerticalAlignment="Top" Width="125" Grid.ColumnSpan="2" Click="Strings_Click"/>
+            <Label x:Name="TitleLabel" Content="Choose a topic to practice:" HorizontalAlignment="Left" Margin="0" VerticalAlignment="Top" Width="252" Grid.ColumnSpan="2"/>
+            <Button x:Name="LoopsAndArraysButton" Content="Loops and Arrays" HorizontalAlignment="Center" Margin="0,41,0,0" VerticalAlignment="Top" Width="125" Click="LoopsAndArraysButton_Click" Grid.ColumnSpan="2"/>
+            <Button x:Name="Strings" Content="Strings" HorizontalAlignment="Center" Margin="16,91,16,0" VerticalAlignment="Top" Width="124" Grid.ColumnSpan="2" Click="Strings_Click"/>
+            <Button x:Name="Collections" Content="Collections" HorizontalAlignment="Center" Margin="0,66,0,0" VerticalAlignment="Top" Width="125" Grid.ColumnSpan="2" Click="Collections_Click" Grid.RowSpan="2"/>
+            <Button Content="Close" HorizontalAlignment="Center" Margin="0,0,0,10" VerticalAlignment="Bottom" Width="75" Grid.ColumnSpan="2" Grid.Row="1" Click="Button_Click"/>
         </Grid>
     </Grid>
 </Window>

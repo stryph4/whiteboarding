@@ -22,11 +22,14 @@ namespace WhiteBoading.Strings
         public LongestWord()
         {
             InitializeComponent();
+            WindowPositioner.CenterWindowOnScreen(this);
         }
 
         private void ShowAnswerButton_Click(object sender, RoutedEventArgs e)
         {
-
+            LongestWordAnswer answer = new LongestWordAnswer();
+            Close();
+            answer.ShowDialog();
         }
 
         private void NextProblemButton_Click(object sender, RoutedEventArgs e)

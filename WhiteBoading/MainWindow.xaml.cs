@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using WhiteBoading.Collections;
 using WhiteBoading.LoopsAndArrays;
 using WhiteBoading.Strings;
 
@@ -38,6 +39,17 @@ namespace WhiteBoading
         {
             Substring substring = new Substring();
             substring.ShowDialog();
+        }
+
+        private void Collections_Click(object sender, RoutedEventArgs e)
+        {
+            Fibonacci fibonacci = new Fibonacci();
+            fibonacci.ShowDialog();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Close();
         }
     }
 }
