@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WhiteBoading.LoopsAndArrays"
         mc:Ignorable="d"
-        Title="FirstAndLast" Height="375" Width="500" ResizeMode="NoResize">
+        Title="FirstAndLast" Height="375" Width="600" ResizeMode="NoResize">
     <Grid Background="Gray" Margin="0,0,-2,-2">
         <TextBlock x:Name="Text" HorizontalAlignment="Center" Margin="0" TextWrapping="Wrap" VerticalAlignment="Center" Height="198" Width="301" TextAlignment="Center"><Run Text="Write a method that takes in an array of integers and returns true if the first and last values in the array are the same, otherwise return false. Assume that the array will"/><LineBreak/><Run Text="always have a length of more than 1."/></TextBlock>
         <Button x:Name="ShowAnswerButton" Content="Show Answer" HorizontalAlignment="Center" Margin="119,146,119,73" VerticalAlignment="Center" Width="131" Click="ShowAnswerButton_Click" Height="27"/>

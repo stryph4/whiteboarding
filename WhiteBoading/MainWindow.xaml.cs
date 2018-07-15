@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using WhiteBoading.Classes;
 using WhiteBoading.Collections;
 using WhiteBoading.LoopsAndArrays;
 using WhiteBoading.Strings;
@@ -47,9 +48,21 @@ namespace WhiteBoading
             fibonacci.ShowDialog();
         }
 
+        private void Classes_Click(object sender, RoutedEventArgs e)
+        {
+            Person person = new Person();
+            person.ShowDialog();
+        }
+
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             Close();
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Program written by Nabiel El-Gendy \r\n \r\n" +
+                "Special thanks to Tech Elevator for being awesome and giving me ideas for white boarding questions.");
         }
     }
 }

@@ -22,6 +22,7 @@ namespace WhiteBoading.Strings
         public LongestWordAnswer()
         {
             InitializeComponent();
+            WindowPositioner.CenterWindowOnScreen(this);
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)

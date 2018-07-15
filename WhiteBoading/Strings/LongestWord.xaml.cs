@@ -28,13 +28,14 @@ namespace WhiteBoading.Strings
         private void ShowAnswerButton_Click(object sender, RoutedEventArgs e)
         {
             LongestWordAnswer answer = new LongestWordAnswer();
-            Close();
             answer.ShowDialog();
         }
 
         private void NextProblemButton_Click(object sender, RoutedEventArgs e)
         {
-
+            CapitalizeEachWord capitalizeEachWord = new CapitalizeEachWord();
+            Close();
+            capitalizeEachWord.ShowDialog();
         }
 
         private void CloseButton_Click(object sender, RoutedEventArgs e)

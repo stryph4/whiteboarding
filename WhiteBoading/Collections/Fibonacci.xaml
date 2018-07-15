@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WhiteBoading.Collections"
         mc:Ignorable="d"
-        Title="Fibonacci" Height="375" Width="500">
+        Title="Fibonacci" Height="375" Width="600">
     <Grid Background="Gray">
         <TextBlock x:Name="Text" HorizontalAlignment="Center" Margin="0" TextWrapping="Wrap" Text="Write a method which takes in an integer, and returns a Fibonacci sequence leading up to that number in the form of a List." VerticalAlignment="Center" Height="198" Width="301" TextAlignment="Center"/>
         <Button x:Name="ShowAnswerButton" Content="Show Answer" HorizontalAlignment="Center" Margin="119,146,117,71" VerticalAlignment="Center" Width="131" Click="ShowAnswerButton_Click" Height="27"/>

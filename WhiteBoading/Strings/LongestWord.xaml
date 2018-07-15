@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WhiteBoading.Strings"
         mc:Ignorable="d"
-        Title="LongestWord" Height="375" Width="500" ResizeMode="NoResize">
+        Title="LongestWord" Height="375" Width="600" ResizeMode="NoResize">
     <Grid Background="Gray">
         <TextBlock x:Name="Text" HorizontalAlignment="Center" Margin="34.167,38.333,32.833,9" TextWrapping="Wrap" Text="Write a method that takes in a sentence and returns the longest word in the sentence.  If there are two words of equal length, return the word which shows up earliest in the sentence." VerticalAlignment="Center" Height="198" Width="301" TextAlignment="Center"/>
         <Button x:Name="ShowAnswerButton" Content="Show Answer" HorizontalAlignment="Center" Margin="119.167,146.333,117.833,72" VerticalAlignment="Center" Width="131" Click="ShowAnswerButton_Click" Height="27"/>

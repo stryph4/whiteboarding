@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WhiteBoading.Strings"
         mc:Ignorable="d"
-        Title="Substring" Height="375" Width="500" ResizeMode="NoResize">
+        Title="Substring" Height="375" Width="600" ResizeMode="NoResize">
     <Grid Background="Gray">
         <TextBlock x:Name="Text" HorizontalAlignment="Center" Margin="34.167,38.333,32.833,9" TextWrapping="Wrap" VerticalAlignment="Center" Height="198" Width="301" TextAlignment="Center"><Run Text="Write a method that takes the following string, and returns the word &quot;Insane&quot;:"/><LineBreak/><Run/><LineBreak/><Run FontSize="12.6666666666667" FontFamily="Consolas" Text=" "/><Span Foreground="Blue" FontSize="12.6666666666667" FontFamily="Consolas"><Run Text="string"/></Span><Span Foreground="Black" FontSize="12.6666666666667" FontFamily="Consolas"><Run Text=" sentence = "/></Span><Span Foreground="#FFA31515" FontSize="12.6666666666667" FontFamily="Consolas"><Run Text="&quot;Insanely long sentence of useless extra words.&quot;"/></Span><Span Foreground="Black" FontSize="12.6666666666667" FontFamily="Consolas"><Run Text=";"/></Span></TextBlock>
         <Button x:Name="ShowAnswerButton" Content="Show Answer" HorizontalAlignment="Center" Margin="119.167,146.333,117.833,72" VerticalAlignment="Center" Width="131" Click="ShowAnswerButton_Click" Height="27"/>

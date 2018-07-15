@@ -13,6 +13,22 @@
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <WarningLevel>4</WarningLevel>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\WhiteBoardingApp\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -32,6 +48,18 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>3A6624E5A7B2AC1661D4DEE7888500629AB47DE9</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>WhiteBoarding_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -54,6 +82,30 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Classes\ChangeName.xaml.cs">
+      <DependentUpon>ChangeName.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\ChangeNameAnswer.xaml.cs">
+      <DependentUpon>ChangeNameAnswer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\Constructor.xaml.cs">
+      <DependentUpon>Constructor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\ConstructorAnswer.xaml.cs">
+      <DependentUpon>ConstructorAnswer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\HappyBirthday.xaml.cs">
+      <DependentUpon>HappyBirthday.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\HappyBirthdayAnswer.xaml.cs">
+      <DependentUpon>HappyBirthdayAnswer.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\Person.xaml.cs">
+      <DependentUpon>Person.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\PersonAnswer.xaml.cs">
+      <DependentUpon>PersonAnswer.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Collections\Absolutes.xaml.cs">
       <DependentUpon>Absolutes.xaml</DependentUpon>
     </Compile>
@@ -81,6 +133,12 @@
     <Compile Include="LoopsAndArrays\ReverseArrayAnswer.xaml.cs">
       <DependentUpon>ReverseArrayAnswer.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Strings\CapitalizeEachWord.xaml.cs">
+      <DependentUpon>CapitalizeEachWord.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Strings\CapitalizeEachWordAnswer.xaml.cs">
+      <DependentUpon>CapitalizeEachWordAnswer.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Strings\LongestWord.xaml.cs">
       <DependentUpon>LongestWord.xaml</DependentUpon>
     </Compile>
@@ -94,6 +152,38 @@
       <DependentUpon>SubstringAnswer.xaml</DependentUpon>
     </Compile>
     <Compile Include="WindowPositioner.cs" />
+    <Page Include="Classes\ChangeName.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Classes\ChangeNameAnswer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Classes\Constructor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Classes\ConstructorAnswer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Classes\HappyBirthday.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Classes\HappyBirthdayAnswer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Classes\Person.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Classes\PersonAnswer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Collections\Absolutes.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -163,6 +253,14 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Strings\CapitalizeEachWord.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Strings\CapitalizeEachWordAnswer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Strings\LongestWord.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -202,10 +300,22 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <None Include="WhiteBoarding_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

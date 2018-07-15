@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WhiteBoading.Collections"
         mc:Ignorable="d"
-        Title="Absolutes" Height="375" Width="500" ResizeMode="NoResize">
+        Title="Absolutes" Height="375" Width="600" ResizeMode="NoResize">
     <Grid Background="Gray">
         <TextBlock x:Name="Text" HorizontalAlignment="Center" Margin="95.5,73" TextWrapping="Wrap" VerticalAlignment="Center" Height="198" Width="301" TextAlignment="Center"><Run Text="Write a method that takes in a List of integers, and returns a new list with all of their absolute values."/><LineBreak/><Run/><LineBreak/><Run Text="Oh yeah.. and don't use Math.Abs()"/><LineBreak/><Run Text="....cheater."/></TextBlock>
         <Button x:Name="ShowAnswerButton" Content="Show Answer" HorizontalAlignment="Center" Margin="182,227,180,90" VerticalAlignment="Center" Width="130" Click="ShowAnswerButton_Click" Height="27"/>

@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WhiteBoading.LoopsAndArrays"
         mc:Ignorable="d"
-        Title="CountEvens" Height="375" Width="500" ResizeMode="NoResize">
+        Title="CountEvens" Height="375" Width="600" ResizeMode="NoResize">
     <Grid Background="Gray">
         <TextBlock x:Name="Text" HorizontalAlignment="Center" Margin="0" TextWrapping="Wrap" Text="Write a method that takes in an array of integers, and counts the total number of even integers in the array." VerticalAlignment="Center" Height="198" Width="301" TextAlignment="Center"/>
         <Button x:Name="ShowAnswerButton" Content="Show Answer" HorizontalAlignment="Center" Margin="119,146,119,73" VerticalAlignment="Center" Width="131" Click="ShowAnswerButton_Click" Height="27"/>
